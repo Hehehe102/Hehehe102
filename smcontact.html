@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="constyle.css">
+<style>
+body {
+  font-family: "Lato", sans-serif;
+  background-color: rgb(43, 70, 87);
+  color: white;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #1f7680;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #ffffff;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #000000;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+h1{
+  font-size: 40px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, sans-serif;
+            background: linear-gradient(to right, #ffffff,
+                    #08c9ff, rgb(255, 255, 255), #61604f);
+            -webkit-text-fill-color: transparent;
+            -webkit-background-clip: text;
+}
+h2{
+  font-size: 30px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, sans-serif;
+            background: linear-gradient(to right, #ffffff,
+                    #08c9ff, rgb(255, 255, 255), #61604f);
+            -webkit-text-fill-color: transparent;
+            -webkit-background-clip: text;
+}
+#say{
+  text-align: center;
+  font-size: 25px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, sans-serif;
+            background: linear-gradient(to right, #ffffff,
+                    #08c9ff, rgb(255, 255, 255), #44a1ee);
+            -webkit-text-fill-color: transparent;
+            -webkit-background-clip: text;
+}
+footer{
+    padding: 10px;
+    font-size: 17px;
+    font-weight: bold;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif, Helvetica, sans-serif;
+    color: black;
+
+}
+</style>
+</head>
+<body>
+<div class="container-fluid">
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="Shanedellweb.html">Home</a>
+  <a href="smabout.html">About</a>
+  <a href="smgallery.html">Gallery</a>
+  <a href="smcontact.html">Contact</a>
+</div>
+
+<h1 style="text-align: center;">Philippine College of Northwestern Luzon</h1>
+<p id="say"><i>"An Investment in Knowledge, Pays the Best Interest"</i></p>
+<span style="font-size:30px;cursor:pointer" onclick="openNav()"><header style="font-size: 20px;">&#9776; <img src="hehe/PCNL.png" height= "100px" width="100px"> Philippine College of Northwestern Luzon</header></span>
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "200px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+<br>
+<header style="text-align:center;">
+      <h1>PHILLIPINE COLLEGE OF NORTHWESTERN LUZON</h1>
+    <h3><I>"An Investment in Knowledge, Pays the Best Interest"</I></h3>
+    </header>
+</nav>
+
+<h4 style="font-size: 35px; text-align: center;">CONTACT</h4>
+<div class="container">
+    <h5 style="font-size: 30px;">Contact Us</h5>
+       
+            <div class="contact-left">
+          <h6>Send your request</h6>
+          <form>
+            <div class="input-row">
+                <div class="input-group">
+                    <label>NAME</label>
+                    <input type="text" placeholder="Shanedell Magno">
+                </div>
+                <div class="input-group">
+                    <label>PHONE</label>
+                    <input type="text" placeholder="+639953615041">
+                </div>
+            </div>
+            <div class="input-row">
+                <div class="input-group">
+                    <label>EMAIL</label>
+                    <input type="text" placeholder="MagnoS@gmail.com">
+                </div>
+                <div class="input-group">
+                    <label>COUNTRY</label>
+                    <input type="text" placeholder="Optional">
+                </div>
+            </div>
+            <label>MESSAGE</label>
+            <textarea rows="5" placeholder="Your Message"></textarea>
+            <button type="submit">SEND</button>
+        </form>
+            </div>
+           <div class="contact-right">    
+           <h6>Reach Us</h6>
+           <table>
+            <tr>
+                <td>EMAIL :</td>
+                <td>pcnl0406@gmail.com</td>  
+            </tr>
+            <tr>
+                <td>PHONE :</td>
+                <td>072-607-0406 </td>
+            </tr>
+            <tr>
+                <td>ADDRESS:</td>
+                <td> San Antonio, Agoo, La Union, 2504<br> Agoo, Philippines  </td>
+            </tr>
+            <tr>
+                <td style="text-align: center;"> <a href="https://web.facebook.com/PCNLOFFICIAL?_rdc=1&_rdr"><img src="designs/fb.png"></a></td>
+            </tr>
+           </table>
+         </div>
+        </div>
+</div>
+<footer>
+ALL RIGHT RESERVED Shanedell Magno
+</footer>
+</div>
+</body>
+</html>
